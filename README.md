@@ -18,14 +18,21 @@ First, clone the repository and install dependencies:
 
 ```sh
 git clone https://github.com/Ayushparwal/MealMentor-.git
+```
+```sh
 cd food_agent
+```
+```sh
 pip install -r requirements.txt
+```
 
 ## **How to run the code**
 on terminal
 ```sh
 uvicorn app:app --reload
+```
 
 on new terminal
 ```sh
 streamlit run food_agent_ui.py
+```
